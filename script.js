@@ -8,10 +8,17 @@
 const bottone = document.querySelector (".pulsante");
 console.log(bottone);
 
+const lampadinaGialla = document.getElementById ('lampadinabianca');
+console.log(lampadinaGialla);
+
 
 // creo l'evento del click
 
 bottone.addEventListener ('click', function(){
+   
+    lampadinaGialla.src = "./img/yellow_lamp.png";
 
-}
-);
+    console.log(lampadinaGialla);
+    
+
+});
