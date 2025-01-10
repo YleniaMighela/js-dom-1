@@ -3,3 +3,14 @@
     border: 0;
     box-sizing: border-box;
 }
+
+main div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: coral;
+    padding: 10px;
+    cursor: pointer;
+}
