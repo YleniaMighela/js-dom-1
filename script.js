@@ -3,3 +3,15 @@
 
 
 
+// seleziono gli elementi
+
+const bottone = document.querySelector (".pulsante");
+console.log(bottone);
+
+
+// creo l'evento del click
+
+bottone.addEventListener ('click', function(){
+
+}
+);
