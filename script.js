@@ -3,7 +3,7 @@
 
 
 
-// seleziono gli elementi
+// seleziono gli elementi da richiamare nel click
 
 const bottone = document.querySelector (".pulsante");
 console.log(bottone);
@@ -20,5 +20,4 @@ bottone.addEventListener ('click', function(){
 
     console.log(lampadinaGialla);
     
-
 });
