@@ -5,9 +5,12 @@
 
 // seleziono gli elementi da richiamare nel click
 
+// elemento del bottone
 const bottone = document.querySelector (".pulsante");
 console.log(bottone);
 
+
+// elemento dell'immagine
 const lampadinaGialla = document.getElementById ('lampadinabianca');
 console.log(lampadinaGialla);
 
@@ -16,6 +19,7 @@ console.log(lampadinaGialla);
 
 bottone.addEventListener ('click', function(){
    
+    // al momento del click nel bottone l'immagine cambia
     lampadinaGialla.src = "./img/yellow_lamp.png";
 
     console.log(lampadinaGialla);
